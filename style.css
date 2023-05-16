@@ -33,11 +33,13 @@ header {
 
 .navigation ul li a {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px;
   background-color: #805215;
   color: #fff;
   text-decoration: none;
   border-radius: 0;
+  width: 120px;
+  text-align: center;
 }
 
 .divider {
@@ -62,6 +64,7 @@ main {
   padding: 20px;
   margin: 10px;
   text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .box-header {
@@ -74,11 +77,14 @@ main {
 
 .box-button {
   display: inline-block;
-  padding: 10px 40px;
+  padding: 10px;
   background-color: #805215;
   color: #fff;
   text-decoration: none;
   border-radius: 0;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .box-wide {
@@ -87,6 +93,7 @@ main {
   padding: 20px;
   margin: 10px;
   text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .wide-box-button {
@@ -96,9 +103,12 @@ main {
 
 .box-button-wide {
   display: inline-block;
-  padding: 10px 90%;
+  padding: 10px;
   background-color: #805215;
   color: #fff;
   text-decoration: none;
   border-radius: 0;
+  width: 90%;
+  text-align: center;
+  border: 1px solid #000;
 }
