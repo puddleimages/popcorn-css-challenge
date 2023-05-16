@@ -4,6 +4,7 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 
+/* COLORS */
 header {
   background-color: #FFDBAA;
 }
@@ -39,7 +40,65 @@ header {
   border-radius: 0;
 }
 
-/* Apply the background color to the rest of the page */
+.divider {
+  border: none;
+  border-top: 2px solid #000;
+  margin: 0;
+}
+
 main {
   background-color: #D4A76A;
+  padding: 20px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 0 0 calc(30% - 20px);
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.box-header {
+  margin-top: 0;
+}
+
+.box-text {
+  margin-bottom: 20px;
+}
+
+.box-button {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #805215;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0;
+}
+
+.box-wide {
+  flex-basis: 100%;
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.wide-box-button {
+  display: flex;
+  justify-content: center;
+}
+
+.box-button-wide {
+  display: inline-block;
+  padding: 10px 90%;
+  background-color: #805215;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0;
 }
